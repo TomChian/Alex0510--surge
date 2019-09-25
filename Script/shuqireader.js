@@ -12,7 +12,7 @@ obj ={
       "isShowRedDot": 0
     },
     "superInfo": {
-      "expiredTime": 4081672705,
+      "expiredTime": 1,
       "superMsg": "",
       "isRemind": ture,
       "superType": 1
@@ -23,7 +23,7 @@ obj ={
       "monthlyInfo": 3
     },
     "newInfo": {
-      "expiredTime": 4081672705,
+      "expiredTime": 1,
       "superMsg": "",
       "isRemind": ture,
       "superType": 1
@@ -53,13 +53,13 @@ obj ={
       },
       "fullBuy": {
         "unUsedNum": 0,
-        "expiredTime": 4081672705,
+        "expiredTime": 1,
         "totalUnUsedNum": 0,
         "usedNum": 0
       },
       "chapterBuy": {
         "unUsedNum": 0,
-        "expiredTime": 4081672705,
+        "expiredTime": 1,
         "totalUnUsedNum": 0,
         "usedNum": 0
       },
