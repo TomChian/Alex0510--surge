@@ -13,7 +13,7 @@ obj ={
     },
     "superInfo": {
       "expiredTime": 0,
-      "superMsg": "",
+      "superMsg": "免费畅读",
       "isRemind": false,
       "superType": 1
     },
@@ -24,7 +24,7 @@ obj ={
     },
     "newInfo": {
       "expiredTime": 0,
-      "superMsg": "",
+      "superMsg": "免费畅读",
       "isRemind": false,
       "superType": 1
     },
@@ -75,8 +75,8 @@ obj ={
     "userInfo": {
       "vipBanner": {
         "state": 2,
-        "title": "",
-        "subtitle": ""
+        "title": "会员续费",
+        "subtitle": "今日书库上新100本"
       },
       "identityInfo": [
       ],
