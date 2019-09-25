@@ -12,9 +12,9 @@ obj ={
       "isShowRedDot": 0
     },
     "superInfo": {
-      "expiredTime": 1,
+      "expiredTime": 0,
       "superMsg": "",
-      "isRemind": ture,
+      "isRemind": false,
       "superType": 1
     },
     "priorityInfo": {
@@ -23,9 +23,9 @@ obj ={
       "monthlyInfo": 3
     },
     "newInfo": {
-      "expiredTime": 1,
+      "expiredTime": 0,
       "superMsg": "",
-      "isRemind": ture,
+      "isRemind": false,
       "superType": 1
     },
     "highInfo": {
@@ -35,7 +35,7 @@ obj ={
     "monthlyInfo": {
       "extraDiscount": 8,
       "autoRenewMsg": "",
-      "isRemind": ture,
+      "isRemind": false,
       "expiredTime": 4081672705,
       "monthlyAutoRenewSwitch": 0,
       "monthlyMsg": "2099-05-05到期",
@@ -53,18 +53,18 @@ obj ={
       },
       "fullBuy": {
         "unUsedNum": 0,
-        "expiredTime": 1,
+        "expiredTime": 0,
         "totalUnUsedNum": 0,
         "usedNum": 0
       },
       "chapterBuy": {
         "unUsedNum": 0,
-        "expiredTime": 1,
+        "expiredTime": 0,
         "totalUnUsedNum": 0,
         "usedNum": 0
       },
       "buyRecord": {
-        "num": 2
+        "num": 3
       }
     },
     "beanInfo": {
