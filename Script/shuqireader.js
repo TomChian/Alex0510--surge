@@ -1,6 +1,6 @@
-var obj = JSON.parse($response.body);
+lat var obj = JSON.parse($response.body);
 
-var id = obj.userid;
+lat var id = obj.userid;
 
 obj ={
   "state": "200",
