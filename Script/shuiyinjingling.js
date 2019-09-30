@@ -1,7 +1,3 @@
-// [Script]
-// http-response ^https://api1.dobenge.cn/api/user/ script-path=https://raw.githubusercontent.com/Alex0510/surge/master/Script/shuiyinjingling.js,requires-body=true
-// [MITM]
-// hostname = api1.dobenge.cn
 
 var obj = JSON.parse($response.body);
 
