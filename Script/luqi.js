@@ -7,5 +7,4 @@ obj.data={
     "vip_endtime": 4081672705,
   }
 
-
 $done({body: JSON.stringify(obj)});
