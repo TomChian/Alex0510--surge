@@ -5,7 +5,6 @@ obj.data={
     "nickname": "我是你爸爸",
     "is_vip": 1,
     "vip_endtime": 4081672705,
- 
   }
 
 
