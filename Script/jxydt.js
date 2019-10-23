@@ -1,10 +1,6 @@
 var obj = JSON.parse($response.body);
 
-obj = {
-  "msg": "OK",
-  "result": {
-    "openCourseIds": [
-    ],
+obj. result = {
     "vipDaysOverdue": 1,
     "has_append_service": 1,
     "begintime": "2019-10-22",
@@ -15,10 +11,8 @@ obj = {
     "isRenewals": 1,
     "vipType": 1,
     "isexpert": true,
-    "choreographySkills": 0,
     "imeiVIPOrderBindStatus": 1
-  },
-  "code": 0
-}
+  }
+
 
 $done({body: JSON.stringify(obj)});
