@@ -1,14 +1,3 @@
-/*
-[URL Rewrite]
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
-
-[Script]
-http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Alex0510/surge/master/Script/Aweme.js
-
-[MITM]
-hostname = *.amemv.com, *.snssdk.com
-*/
-
 
 let arr = {
   "allow_download": true,
