@@ -10,7 +10,7 @@ obj = "sdkrows_iOS": [
    {
     "pic": "",
     "title": "播放前贴片",
-    "pos": "ad20",
+    "pos": "ad2",
     "sdkid": "1"
    },
    {
