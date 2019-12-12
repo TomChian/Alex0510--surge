@@ -1,6 +1,10 @@
 var obj = JSON.parse($response.body);
 
-  obj.data["is_vip"］= 1,
-  obj.data["vip_end_time"］= "2099-05-05"
+  obj."data"= {
+    "nick_name": "我是你爸爸",
+    "is_vip": 1,
+    "vip_end_time": "2099-12-15",
+    "user_id": 20245
+  }
 
 $done({body: JSON.stringify(obj)});
