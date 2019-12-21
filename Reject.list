@@ -1229,6 +1229,8 @@ DOMAIN-SUFFIX,practivate.adobe.com
 DOMAIN-SUFFIX,wip3.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
 # Google
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,googleads4.g.doubleclick.net
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,static.googleadsserving.cn
 DOMAIN-SUFFIX,ade.googlesyndication.com
