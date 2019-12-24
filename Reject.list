@@ -1,4 +1,6 @@
-
+# Apple
+DOMAIN-SUFFIX,updates-http.cdn-apple.com
+DOMAIN-SUFFIX,ocsp.apple.com
 # .CN
 DOMAIN-SUFFIX,0z5jn.cn
 DOMAIN-SUFFIX,1.wps.cn
