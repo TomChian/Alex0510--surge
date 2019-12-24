@@ -1,4 +1,4 @@
-
+[URL Rewrite]
 https:\/\/mygoodlives\.com\/ntv.json.* - reject
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 ^https://api.bilibili.com/pgc/view/app/season https://bili.miao.best/season/ 302
