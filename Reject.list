@@ -13797,7 +13797,6 @@ URL-REGEX,^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/
 URL-REGEX,^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv
 URL-REGEX,^https?:\/\/app\.58\.com\/api\/log\/
 URL-REGEX,^https?:\/\/.+\.58cdn\.com\.cn\/brandads\/
-
 # A
 # > 阿里巴巴
 URL-REGEX,^https?:\/\/(gw|heic)\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4})
@@ -13823,7 +13822,6 @@ URL-REGEX,^https?:\/\/aes\.acfun\.cn\/s\?adzones
 URL-REGEX,^https?:\/\/gw\.aihuishou\.com\/app-portal\/home\/getadvertisement
 # > APICloud
 URL-REGEX,^https?:\/\/a\.apicloud\.com\/start_page\/
-
 # B
 # > 百度
 # >> 百度网盘
@@ -13847,7 +13845,6 @@ URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/
 URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash
 # > 抱抱
 URL-REGEX,^https?:\/\/www\.myhug\.cn\/ad\/
-# > 百词斩
 URL-REGEX,^https?:\/\/7n\.bczcdn\.com\/launchad\/
 # > 贝太厨房
 URL-REGEX,^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page
@@ -13857,14 +13854,11 @@ URL-REGEX,^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/
 URL-REGEX,^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage
 # > 薄荷
 URL-REGEX,^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad
-
 # C
-# > CNTV
 URL-REGEX,^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850
 URL-REGEX,^https?:\/\/asp\.cntv\.myalicdn\.com\/.+\?maxbr=850
 URL-REGEX,^https?:\/\/www\.cntv\.cn\/nettv\/adp\/
 URL-REGEX,^https?:\/\/v\.cctv\.com\/.+850
-# > 车来了
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/adpub\/
 # URL-REGEX,^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/
 URL-REGEX,^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/
@@ -13878,7 +13872,6 @@ URL-REGEX,^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/
 URL-REGEX,^https?:\/\/.+/V\d\/splash\/getSplashV\d\.action
 # > 超级星饭团
 URL-REGEX,^https?:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/
-
 # D
 # > 豆瓣 (154.8.131.* 自签证书不可用)
 URL-REGEX,^https?:\/\/api\.douban\.com\/v\d\/app_ads\/
@@ -13898,14 +13891,12 @@ URL-REGEX,^https?:\/\/capis(-slb)?\.didapinche\.com\/ad\/
 URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat\/
 # > 电视家
 URL-REGEX,^https?:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/
-
 # E
 # > 艺龙 (123.59.31.1,119.18.193.135)
 # (仅 Surge 可用因其支持 force-http-engine-hosts)
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(adgateway|adv)\/
 # > e代驾
 URL-REGEX,^https?:\/\/pic\.edaijia\.cn\/adsplash\/
-
 # F
 # > Foodie
 URL-REGEX,^https?:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(banner|notice)\/overview
@@ -13916,9 +13907,7 @@ URL-REGEX,^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?m
 # > 飞常准
 URL-REGEX,^https?:\/\/app\.variflight\.com\/ad\/
 URL-REGEX,^https?:\/\/app\.variflight\.com\/v\d\/advert\/
-
 # G
-# > Google
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
@@ -13932,7 +13921,6 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
 URL-REGEX,^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json
 # > 国泰君安
 URL-REGEX,^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+\.jpg$
-
 # H
 # > 杭州公交
 URL-REGEX,^https?:\/\/m\.ibuscloud.com\/v2\/app\/getStartPage
@@ -13950,13 +13938,11 @@ URL-REGEX,^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/
 URL-REGEX,^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto
 # > 花生地铁
 URL-REGEX,^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/
-
 # I
 # > 讯飞
 URL-REGEX,^https?:\/\/imeclient\.openspeech\.cn\/adservice\/
 # > 好体知
 URL-REGEX,^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise
-
 # J
 # > 京东
 URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts)
@@ -13977,19 +13963,16 @@ URL-REGEX,^https?:\/\/\w+\.kingsoft-office-service\.com\/ad
 # > 金山词霸
 URL-REGEX,^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController)
 URL-REGEX,^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson
-
 # K
 # > Keep
 URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads
 # > 快看漫画
 URL-REGEX,^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/
 # > 酷我 (122.14.246.33,175.102.178.52)
-# (仅 Surge 可用因其支持 force-http-engine-hosts)
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo
 # > 看理想
 URL-REGEX,^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement
-
 # L
 # > 乐视
 URL-REGEX,^https?:\/\/.+\/letv-gug\/
@@ -13997,7 +13980,6 @@ URL-REGEX,^https?:\/\/.+\/letv-gug\/
 URL-REGEX,^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads
 # > 懒投资
 URL-REGEX,^https?:\/\/ios\.lantouzi\.com\/api\/startpage
-
 # M
 # > 小米
 URL-REGEX,^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start
@@ -14006,7 +13988,6 @@ URL-REGEX,^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen
 URL-REGEX,^https?:\/\/api-mifit.+\.huami\.com\/discovery\/mi\/discovery\/.+_ad\?
 # > 蘑菇租房
 URL-REGEX,^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage
-# > 墨迹天气
 URL-REGEX,^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/
 # > 埋堆堆
 URL-REGEX,^https?:\/\/mob\.mddcloud\.com\.cn\/api\/(ad|advert)\/
@@ -14024,7 +14005,6 @@ URL-REGEX,^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/
 # > 马蜂窝
 URL-REGEX,^https?:\/\/mapi\.mafengwo\.cn\/ad\/
 URL-REGEX,^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/
-
 # N
 # > 爱南宁
 URL-REGEX,^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/
@@ -14032,7 +14012,6 @@ URL-REGEX,^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/
 URL-REGEX,^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/
 # > NationalGeographicChina
 URL-REGEX,^https?:\/\/wap\.ngchina\.cn\/news\/adverts\/
-
 # O
 # > ofo
 URL-REGEX,^https?:\/\/supportda\.ofo\.com\/adaction\?
@@ -14041,13 +14020,11 @@ URL-REGEX,^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
 # > Oray
 URL-REGEX,^https?:\/\/slapi\.oray\.net\/client\/ad
-
 # P
 # > 票根
 URL-REGEX,^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/
 # > 拼多多
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
-
 # Q
 # > Qdaily
 URL-REGEX,^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json
@@ -14058,7 +14035,6 @@ URL-REGEX,^https?:\/\/open\.qyer\.com\/qyer\/config\/get
 URL-REGEX,^https?:\/\/media\.qyer\.com\/ad\/
 # > 亲宝宝
 URL-REGEX,^https?:\/\/api\.qbb6\.com\/ad\/
-
 # R
 # > 人人视频
 URL-REGEX,^https?:\/\/msspjh\.emarbox\.com\/getAdConfig
@@ -14069,7 +14045,6 @@ URL-REGEX,^https?:\/\/ctrl\.(playcvn|zmzapi)\.(com|net)\/app\/(ads|init)
 # > 日日煮
 URL-REGEX,^https?:\/\/api\.daydaycook\.com\.cn\/daydaycook\/server\/ad\/
 URL-REGEX,^https?:\/\/cms\.daydaycook\.com\.cn\/api\/cms\/advertisement\/
-
 # S
 # > 搜狐
 URL-REGEX,^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense
@@ -14097,7 +14072,6 @@ URL-REGEX,^https?:\/\/img01\.10101111cdn\.com\/adpos\/
 URL-REGEX,^https?:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/
 # > 省点
 URL-REGEX,^https?:\/\/api\.waitwaitpay\.com\/\/api\/splash
-
 # T
 # > 腾讯
 # >> 富途牛牛
@@ -14120,7 +14094,6 @@ URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNew
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad)
 # > 澎湃新闻
 URL-REGEX,^https?:\/\/adpai\.thepaper\.cn\/.+&ad=
-# > 太平洋
 URL-REGEX,^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/
 URL-REGEX,^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p
 URL-REGEX,^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/
@@ -14128,12 +14101,10 @@ URL-REGEX,^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p
 URL-REGEX,^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp
 # > 途牛
 URL-REGEX,^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/
-
 # V
 # > VUE
 URL-REGEX,^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad
 URL-REGEX,^https?:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/
-
 # W
 # > 网易
 # >> 网易邮箱
@@ -14172,7 +14143,6 @@ URL-REGEX,^https?:\/\/thor\.weidian\.com\/ares\/home\.splash\/
 URL-REGEX,^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/
 # > 威锋
 URL-REGEX,^https?:\/\/api\.feng\.com\/v\d\/advertisement\/.*Claunch
-
 # X
 # > 新浪
 URL-REGEX,^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv
@@ -14194,11 +14164,9 @@ URL-REGEX,^https?:\/\/api\.psy-1\.com\/cosleep\/startup
 # > 迅游加速器
 URL-REGEX,^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls)
 URL-REGEX,^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/
-# > 喜马拉雅
 URL-REGEX,^https?:\/\/.+\/api\/v\d\/adRealTime
 # > 小站
 URL-REGEX,^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/
-
 # Y
 # > Yahoo!
 URL-REGEX,^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do
@@ -14218,7 +14186,6 @@ URL-REGEX,^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/
 URL-REGEX,^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/
 # > 迅雷
 URL-REGEX,^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/
-
 # Z
 # > 直播吧
 URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
