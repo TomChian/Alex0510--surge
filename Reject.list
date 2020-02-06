@@ -1,12 +1,13 @@
 # Apple
 DOMAIN-SUFFIX,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ocsp.apple.com
-# .CN
+# .杂
 
-DOMAIN-SUFFIX,storage.googleapis.com,REJECT
-DOMAIN-SUFFIX,poweredby.jads.co,REJECT
-DOMAIN-SUFFIX,juicyads.com,REJECT
-DOMAIN-SUFFIX,www.adulttrafficflow.vip,REJECT
+DOMAIN-SUFFIX,*.leleapps.com
+DOMAIN-SUFFIX,storage.googleapis.com
+DOMAIN-SUFFIX,poweredby.jads.com
+DOMAIN-SUFFIX,juicyads.com
+DOMAIN-SUFFIX,www.adulttrafficflow.vip
 DOMAIN-SUFFIX,0z5jn.cn
 DOMAIN-SUFFIX,1.wps.cn
 DOMAIN-SUFFIX,114so.cn
