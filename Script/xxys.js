@@ -2,7 +2,9 @@
 surge正则
 https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/surge/master/Script/xxys.js
 
-hostname=*.xiaoxiao(img|apps|appxs).com
+hostname=*.xiaoxiaoimg.com, *.xiaoxiaoapps.com, *.xiaoxiaoappxs.com
+
+
 
 */
 
