@@ -1,5 +1,8 @@
 /*
-surge正则
+由于小小影视通道很多，启用时会选择通道，有时会导致规则失效，请自行抓包把链接reject
+测试时有.*.leleapps.com自行添加规则reject
+
+surge
 https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/surge/master/Script/xxys.js
 
 hostname=*.xiaoxiaoimg.com, *.xiaoxiaoapps.com, *.xiaoxiaoappxs.com
