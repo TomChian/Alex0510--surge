@@ -1,6 +1,12 @@
 # Apple
 DOMAIN-SUFFIX,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,ns.itunes.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,xp.apple.com
 # .杂
 
 DOMAIN-SUFFIX,*.leleapps.com
