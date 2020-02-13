@@ -7,6 +7,7 @@ DOMAIN,mesu.apple.com
 DOMAIN,updates.cdn-apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,xp.apple.com
+DOMAIN,gdmf.apple.com
 # .杂
 
 DOMAIN-SUFFIX,*.leleapps.com
