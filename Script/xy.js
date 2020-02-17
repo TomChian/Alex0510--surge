@@ -11,7 +11,7 @@ const path2 = "/vipVerifyReceipt";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
-     obj =obj = {
+     obj = {
   "autoRenewProductId": "premium_platinum_yearly",
   "autoRenewStatus": 0,
   "iosDeviceProductVo": {
@@ -44,7 +44,7 @@ if ($request.url.indexOf(path1) != -1){
 
 
 if ($request.url.indexOf(path2) != -1){
-     obj =obj = {
+     obj = {
   "vipType": "premium_platinum_yearly",
   "autoRenewStatus": 0,
   "allEndTime": 1866033855000,
