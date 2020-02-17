@@ -1,3 +1,9 @@
+*/
+
+https://m.4009991000.com/(userCharge|feeQuery).action
+
+*/
+
 const path1 = "/userCharge.action";
 const path2 = "/feeQuery.action";
 
