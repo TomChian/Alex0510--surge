@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>我的</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="css/mui.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+    <!--App自定义的css-->
+    <!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
+    <script src="js/jquery.js"></script>
+    <script src="js/lib.js?7"></script>
+</head>
+
+<body>
+<style type="text/css">
+  .a{ width: 100%; height:120px; line-height: 180px; text-align: center; background-color: #478ac2}
+    .b{ width: 100%; height: 70px; text-align: center; background-color: #fff}
+    .b img{ width: 60px; height: 60px; border-radius: 40px; margin-top: -30px;}
+    .b h3{ text-align: center;
+        font-weight:normal; font-size: 16px}
+  button{ width: 80%; margin-left: 10%; margin-top: 50px; color: #fff; border: none; background-color: #131226; opacity: 0.6; height: 40px;
+      line-height: 40px; text-align: center; font-size: 16px; padding: 0px}
+    h3 img{ vertical-align: middle; width: 30px!important; height: 30px!important; margin-top: 0px!important;}
+    .aa{
+        padding:15px 20px; height: 100px}
+    .aa img{
+        float: left;  width: 60px; height: 60px; border-radius: 40px;}
+    .aa .l{ float: left; margin-left: 15px; width: 70%}
+  .aa .l h3{ text-align: left;
+      font-weight:normal; font-size: 16px; color: #ccc; line-height: 30px}
+  .mui-table-view{ background-color: transparent; color: #cccccc}
+  .mui-table-view:before{ background-color: #999!important;}
+  .mui-table-view-cell:after{ background-color: #999!important;}
+  .mui-table-view:after{ background-color: #999!important;}
+</style>
+<div class="aa">
+    <img src="/images/thumb.png">
+    <div class="l">
+        <h3 style="font-size: 13px;color: #0B0719;">手机用户：17684726444</h3>
+        <h3 style="font-size: 13px;color: #FC2D34;">vip:2029-02-17到期</h3>
+    </div>
+
+</div>
+
+<!--<div class="b">-->
+    <!--<img src="/images/thumb.png">-->
+    <!--&lt;!&ndash;<h3>17684726444</h3>&ndash;&gt;-->
+    <!--<h3>vip:2029-02-17到期</h3>-->
+<!--</div>-->
+
+<style type="text/css">
+    .aaa{ line-height: 40px; font-size:16px; }
+    .sbar a{ color: #0B0719;}
+    .mui-navigate-right a{ color: #ffffff;font-size:16px;}
+    .aaa .sbar{ margin: 0px auto; }
+    .icon{ width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;background-color:#FC2D34}
+    .mui-table-view-cell{ padding: 13px 15px}
+</style>
+
+<div class="aaa" style="width: 100%; height: 40px">
+    <div style="float:left; width: 50%; text-align: left;padding-left: 15px" class="sbar">
+        <img src="images/icon_charge.png" class="icon"/>
+        <a onclick="$.open('index.php?m=Home&c=Index&a=vip&token=aedd527ea6461941b21991e6ea5ea2c6')">激活兑换</a>
+        </div>
+    
+    
+  
+</div>
+
+
+<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 10px; font-size:16px;">
+    <li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="$.open('tpl/record.html')" class="mui-navigate-right"><img src="images/icon_record.png" class="icon"/>观看记录</a>
+    </li>
+     
+    <!--<li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="$.open('index.php?m=Home&c=Index&a=feedback1&token=aedd527ea6461941b21991e6ea5ea2c6')" class="mui-navigate-right"><img src="images/icon_concat.png" class="icon"/>联系反馈</a>
+    </li>-->
+    <li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="$.open('tpl/help.html')"  class="mui-navigate-right">
+            <img src="images/icon_problem.png" class="icon"/>使用帮助</a>
+    </li>
+	<li class="mui-table-view-cell">
+       <a style="color:#0B0719;" onclick="$.open('index.php?m=Home&c=Index&a=password')" class="mui-navigate-right"><img src="images/icon_concat.png" class="icon"/>修改密码</a>
+    </li> 
+    <!-- <li class="mui-table-view-cell">
+        <a style="color:#fff;" onclick="share()" class="mui-navigate-right"> <img src="images/icon_share.png" class="icon"/>分享推荐</a>
+    </li> -->
+
+    <li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="clear_cache()" class="mui-navigate-right"> <img src="images/icon_clear.png" class="icon"/>清除缓存</a>
+    </li>
+
+
+
+    <li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="$.open('index.php?m=Home&c=Index&a=about&token=aedd527ea6461941b21991e6ea5ea2c6')" class="mui-navigate-right">
+            <img src="images/icon_about.png" class="icon"/>免责声明</a>
+    </li>
+    
+
+
+    <li class="mui-table-view-cell">
+        <a style="color:#0B0719;" onclick="logout()" class="mui-navigate-right">
+            <img src="images/icon_close.png" class="icon"/>注销退出</a>
+    </li>
+
+   
+</ul>
+
+
+
+<!--<ul class="mui-table-view mui-table-view-chevron" style="margin-top: 20px">-->
+    <!--&lt;!&ndash;<li class="mui-table-view-cell">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a onclick="$.open('index.php?m=Home&c=Index&a=about&token=aedd527ea6461941b21991e6ea5ea2c6')" class="mui-navigate-right">关于我们</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;</li>&ndash;&gt;-->
+    <!--&lt;!&ndash;<li class="mui-table-view-cell">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a onclick="$.open('index.php?m=Home&c=Index&a=help&token=aedd527ea6461941b21991e6ea5ea2c6')" class="mui-navigate-right">常见问题</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;</li>&ndash;&gt;-->
+    <!--<li class="mui-table-view-cell">-->
+        <!--<a onclick="$.open('index.php?m=Home&c=Index&a=feedback&token=aedd527ea6461941b21991e6ea5ea2c6')" class="mui-navigate-right">联系反馈</a>-->
+    <!--</li>-->
+<!--</ul>-->
+
+
+
+
+</body>
+<script src="js/mui.min.js"></script>
+<script>
+
+    function clear_cache() {
+
+            $.clear_cache();
+
+    }
+ function logout(){
+
+        $.action_sheet("注销当前账号,直接关闭应用",function (res) {
+            if(res==1){
+                $.logout();
+                var url = "/index.php?m=Home&c=Index&a=my";
+                window.location.href=url;
+            }else{
+                $.exit();
+            }
+        })
+
+ }
+
+ function relogin(){
+     $.open("/index.php?m=Home&c=Index&a=login");
+ }
+  
+  function share() {
+
+     if(window['Android']){
+         var api = window['Android'];
+         api.do_share();
+     }
+     else {
+         window.webkit.messageHandlers.AppModel.postMessage({"method":"do_share","params":'',"callback":""})
+     }
+ }
+
+ function  feedBack() {
+     if(window['Android']){
+         var api = window['Android'];
+         api.feedback();
+     }
+     else {
+         window.webkit.messageHandlers.AppModel.postMessage({"method":"feedback","params":'',"callback":""})
+     }
+
+ }
+ function memberPrepaid(url) {
+     if(window['Android']){
+         var api = window['Android'];
+         api.bannerClick(url);
+     }
+     else {
+         window.webkit.messageHandlers.AppModel.postMessage({"method":"bannerClick","params":url,"callback":""})
+     }
+ }
+</script>
+</html>
