@@ -1,6 +1,5 @@
 /*
-https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
+https:\/\/api\.vuevideo\.net\/api\/v1\/users\/.+\/profile
 */
 
-body = $response.body.replace(/\"isPremium\":false/, "\"isPremium\":true").replace(/\"isForeverPremium\":false/, "\"isForeverPremium\":true").replace(/\"valid\":false/, "\"valid\":true")
-$done({body});
+body = $response.body.replace(/\"isPremium\":false/, "\"isPremium\":true")
