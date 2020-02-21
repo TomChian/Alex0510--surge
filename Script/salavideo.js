@@ -1,3 +1,6 @@
+/*
+https://bmall.camera360.com/api/iap/check-receipt
+*/
 
 var obj = JSON.parse($response.body);
 
