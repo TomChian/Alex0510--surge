@@ -1,3 +1,11 @@
+/*
+内购恢复
+https://buy.itunes.apple.com/verifyReceipt
+hostname:buy.itunes.apple.com
+*/
+
+
+
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 
