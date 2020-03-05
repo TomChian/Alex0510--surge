@@ -39,10 +39,10 @@ Proxy:
 # 代理组策略
 Proxy Group:
 # url-test 通过对 URL 对速度进行基准测试，自动选择最快的节点。
-- { name: "UrlTest", type: url-test, proxies: ["1", "2", "3","4"], url: "http://www.gstatic.com/generate_204", interval: 300 }
+- { name: "UrlTest", type: url-test, proxies: ["🇨🇳 中国上海 Back", "🇨🇳 中国上海 Back", "🇨🇳 中国上海 Back"], url: "http://www.gstatic.com/generate_204", interval: 300 }
 
 # 代理节点选择
-- { name: "PROXY", type: select, proxies: ["UrlTest","1", "2", "3"] }
+- { name: "PROXY", type: select, proxies: ["UrlTest","🇨🇳 中国上海 Back", "🇨🇳 中国上海 Back", "🇨🇳 中国上海 Back"] }
 
 
 #回国规则
