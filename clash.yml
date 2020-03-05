@@ -425,7 +425,8 @@ DOMAINSUFFIX,hunantv.com,Proxy
 DOMAINSUFFIX,mgtv.com,Proxy
 # > Migu
 USERAGENT,MiguVideo*,Proxy
-USERAGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,ProxyDOMAINSUFFIX,cmvideo.cn,Proxy
+USERAGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,Proxy
+DOMAINSUFFIX,cmvideo.cn,Proxy
 DOMAINSUFFIX,migu.cn,Proxy
 DOMAINSUFFIX,miguvideo.com,Proxy
 USERAGENT,iQiYiPhoneVideo,Proxy
