@@ -7,5 +7,5 @@ let obj = JSON.parse($response.body);
 
 obj.data.vipState.state = 1,
  obj.data.vipState.forever = true,
-obj.data.vipState.expireTime = 4077229842000
+obj.data.vipState.expireTime = "4077229842000"
  $done({body: JSON.stringify(obj)});
