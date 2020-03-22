@@ -1,5 +1,5 @@
 /*
-卡点视频制作VIP
+卡点特效视频制作VIP
 https://api.kadiantexiao.com/api/v1/users/infos
 */
 
