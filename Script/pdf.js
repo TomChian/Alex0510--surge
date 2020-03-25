@@ -1,12 +1,14 @@
 /*
-两款PDF APP解锁Pro
-PDF Expret点睛和PDF Viewer
-https://(api|license).(revenuecat|pdfexpert).com/(v1|api/1.0/pdfexpert6)/subscri(bers/|ption/refresh)
-hostname：license.pdfexpert.com, api.revenuecat.com
+三款PDF APP解锁Pro
+PDF Expret点睛和PDF Viewer及(Adbole Acrobat reader未测试）
+
+https://(api|license|createpdf).(revenuecat|pdfexpert|acrobat).com/(v1|api/1.0/pdfexpert6|createpdf/api/users/me)/subscri(bers/|(ption(s|/refresh)))
+hostname：license.pdfexpert.com, api.revenuecat.com,createpdf.acrobat.com
 */
 
 const path1 = "/v1/subscribers/";
 const path2 = "/api/1.0/pdfexpert6/subscription/refresh";
+const path3 = "/createpdf/api/users/me/subscriptions";
 
 let obj = JSON.parse($response.body);
 
@@ -57,6 +59,18 @@ obj = {
   "isPDFExpert6User": true,
   "subscriptionAutoRenewStatus": "autoRenewOff",
   "isInGracePeriod": false
+}
+}
+if ($request.url.indexOf(path3) != -1){
+obj = {
+  "subscriptions": [{
+    "subscription_name": "PDFPack",
+    "subscription_level": "Plus",
+    "subscription_state": "ACTIVE",
+    "sub_ref": "F00D850C7BD4541A9CBA",
+    "biz_source": "",
+    "billing_term": null
+  }]
 }
 }
 $done({body: JSON.stringify(obj)});
