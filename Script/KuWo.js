@@ -1,5 +1,5 @@
 /*
-酷我音乐解锁 vip(搬运nobaby)
+酷我音乐解锁 vip(搬运nobyda)
 https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
 MITM = vip1.kuwo.cn
 */
