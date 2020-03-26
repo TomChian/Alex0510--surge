@@ -1,5 +1,5 @@
 /*
-魔板视频和通话录音同时解锁VIP
+魔板视频，通话录音，扫描王，秒拍证件照，文字识别五大APP同时解锁VIP
 http://micro-tool-api.foundao.com/orderPayCenterService/user/userInfo
 */
 
