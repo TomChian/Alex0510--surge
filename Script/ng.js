@@ -402,7 +402,7 @@ obj = {
     "in_app": [
       {
         "quantity": "1",
-        "purchase_date_ms": "1584891451000",
+        "purchase_date_ms": "",
         "expires_date": "2099-04-05 15:37:31 Etc/GMT",
         "expires_date_pst": "2099-04-05 08:37:31 America/Los_Angeles",
         "is_in_intro_offer_period": "false",
@@ -427,7 +427,7 @@ obj = {
     "request_date_ms": "1584891531608",
     "original_purchase_date_pst": "2020-03-22 08:30:31 America/Los_Angeles",
     "application_version": "6303",
-    "original_purchase_date_ms": "1584891031000",
+    "original_purchase_date_ms": "",
     "receipt_creation_date_ms": "1584891460000",
     "original_application_version": "6303",
     "download_id": 9999
