@@ -3,6 +3,7 @@
 如果无法安装自行下载IPA重新签名安装即可
 去除app显示到期限制--Eric
 http://usapi.tongbu.com/v.html
+hostname=usapi.tongbu.com
 */
 
 
