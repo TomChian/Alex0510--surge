@@ -1,7 +1,7 @@
 /*
 magi+ inshot peachy 发型多多内购恢复
 新增星空内购
-新增落格输入法x内购
+新增落格输入法x内购已失效不在更新
 新增Launch Center Pro内购成功后关了APP网络，4月7号到期后已不在更新，无法订阅成了
 新增speed test内购
 新增inscopy和instake永久会员
@@ -12,6 +12,7 @@ magi+ inshot peachy 发型多多内购恢复
 新增ivod内购
 新增lazy bones自行测试
 新增私人健身教练自行测试
+新增简衣橱永久VIP
 https://buy.itunes.apple.com/verifyReceipt
 hostname:buy.itunes.apple.com
 */
@@ -1135,5 +1136,12 @@ obj =
 "pending_renewal_info":[
 {"auto_renew_product_id":"com.abishkking.maleworkoutyear", "original_transaction_id":"160000710322304", "product_id":"com.abishkking.maleworkoutyear", "auto_renew_status":"1"}]}
 }
-
+if(bundle_id == "studio.2players.Wardrobe")
+{
+obj =
+{
+"receipt":{"receipt_type":"Production", "adam_id":1344153452, "app_item_id":1344153452, "bundle_id":"studio.2players.Wardrobe", "application_version":"59", "download_id":9999, "version_external_identifier":835174928, "receipt_creation_date":"2020-04-05 14:51:07 Etc/GMT", "receipt_creation_date_ms":"1586098267000", "receipt_creation_date_pst":"2020-04-05 07:51:07 America/Los_Angeles", "request_date":"2020-04-05 14:51:12 Etc/GMT", "request_date_ms":"1586098272611", "request_date_pst":"2020-04-05 07:51:12 America/Los_Angeles", "original_purchase_date":"2019-06-07 12:12:19 Etc/GMT", "original_purchase_date_ms":"1559909539000", "original_purchase_date_pst":"2019-06-07 05:12:19 America/Los_Angeles", "original_application_version":"45", 
+"in_app":[
+{"quantity":"1", "product_id":"studio.2players.wardrobe.pro.lifetime", "transaction_id":"190000624974149", "original_transaction_id":"190000624974149", "purchase_date":"2019-06-07 13:09:57 Etc/GMT", "purchase_date_ms":"1559912997000", "purchase_date_pst":"2019-06-07 06:09:57 America/Los_Angeles", "original_purchase_date":"2019-06-07 13:09:57 Etc/GMT", "original_purchase_date_ms":"1559912997000", "original_purchase_date_pst":"2019-06-07 06:09:57 America/Los_Angeles", "is_trial_period":"false"}]}, "status":0, "environment":"Production"}
+}
 $done({body: JSON.stringify(obj)});
