@@ -13,6 +13,7 @@ magi+ inshot peachy 发型多多内购恢复
 新增lazy bones自行测试
 新增私人健身教练自行测试
 新增简衣橱永久VIP
+新增落格输入法
 https://buy.itunes.apple.com/verifyReceipt
 hostname:buy.itunes.apple.com
 */
@@ -1144,4 +1145,33 @@ obj =
 "in_app":[
 {"quantity":"1", "product_id":"studio.2players.wardrobe.pro.lifetime", "transaction_id":"190000624974149", "original_transaction_id":"190000624974149", "purchase_date":"2019-06-07 13:09:57 Etc/GMT", "purchase_date_ms":"1559912997000", "purchase_date_pst":"2019-06-07 06:09:57 America/Los_Angeles", "original_purchase_date":"2019-06-07 13:09:57 Etc/GMT", "original_purchase_date_ms":"1559912997000", "original_purchase_date_pst":"2019-06-07 06:09:57 America/Los_Angeles", "is_trial_period":"false"}]}, "status":0, "environment":"Production"}
 }
+if(bundle_id == "MVH6DNU2ZP.input")
+{
+obj = {
+  "receipt": {
+    "receipt_type": "Production",
+    "app_item_id": 1140465593,
+    "receipt_creation_date": "2020-04-06 13:44:26 Etc/GMT",
+    "bundle_id": "MVH6DNU2ZP.input",
+    "original_purchase_date": "2016-11-09 06:09:45 Etc/GMT",
+    "in_app": [
+    ],
+    "adam_id": 1140465593,
+    "receipt_creation_date_pst": "2020-04-06 06:44:26 America/Los_Angeles",
+    "request_date": "2020-04-06 13:47:35 Etc/GMT",
+    "request_date_pst": "2020-04-06 06:47:35 America/Los_Angeles",
+    "version_external_identifier": 834954648,
+    "request_date_ms": "1586180855418",
+    "original_purchase_date_pst": "2016-11-08 22:09:45 America/Los_Angeles",
+    "application_version": "3894",
+    "original_purchase_date_ms": "1478671785000",
+    "receipt_creation_date_ms": "1586180666000",
+    "original_application_version": "1",
+    "download_id": 22064495696050
+  },
+  "status": 0,
+  "environment": "Production"
+}
+}
 $done({body: JSON.stringify(obj)});
+
