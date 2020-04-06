@@ -13,7 +13,7 @@ magi+ inshot peachy 发型多多内购恢复
 新增lazy bones自行测试
 新增私人健身教练自行测试
 新增简衣橱永久VIP
-新增落格输入法
+新增lg
 https://buy.itunes.apple.com/verifyReceipt
 hostname:buy.itunes.apple.com
 */
